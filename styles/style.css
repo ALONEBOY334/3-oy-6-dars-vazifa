@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    margin-bottom: 400px;
+}
+
+.container {
+    max-width: 2040px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    position: fixed;
+}
+
+.header {
+    width: 345px;
+    margin-left: 30px;
+    background-color: aqua;  
+}
+
+.header__container .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.header-logo .title {
+    font-weight: 600;
+    font-size: 30px;
+    color: #151D48;
+}
+
+.header-button {
+    margin-top: 50px;
+}
+
+.header-button button {
+    border: none;
+    background-color: #5D5FEF;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+    margin-bottom: 48px;
+    transition: all 0.5s linear;
+}
+
+.header-button button span {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header-button button:hover {
+    background-color: rebeccapurple;
+}
+
+.list .toolbar {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.toolbar .tool-title {
+    font-weight: 400;
+    font-size: 18px;
+    color: #737791;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+.toolbar .tool-title:hover {
+    color: aqua;
+}
+
+.pro {
+    margin-top: 136px;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    padding: 31px 46px; 
+} 
+
+.pro .img {
+    margin-left: 48px;
+    padding-bottom: 8px;
+}
+
+.pro .logo-title {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.pro .logo-text {
+    width: 145px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 30px;
+}
+
+.pro .btn {
+    padding: 8px 38px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.5s linear;
+}
+
+.btn span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #5D5FEF;
+    text-transform: capitalize;
+}
+
+.pro .btn:hover {
+    background-color: #737791;
+    color: #FFFFFF;
+}
+
+.dash {
+    width: 1575px;
+    height: 70px;
+    background-color: aqua;
+
+}
+
+
+.dash__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dash-logo {
+    margin-right: 202px;
+}
+
+.dash-logo a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 36px;
+    color: #151D48;
+}
+
+.search {
+    width: 513px;
+    margin-right: 42px;
+    border: 1px solid #F9FAFB;
+}
+
+.search input {
+    border: none;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.dash-info {
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+}
+
+.count .usa {
+    margin-left: 14px;
+}
+
+.count .info-title {
+    margin-right: 14px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #374557;
+}
+
+.about {
+    display: flex;
+    margin-left: 42px;
+    /* align-items: center; */
+}
+
+.not {
+    margin-right: 24px;
+}
+
+.abu {
+    margin-right: 54px;
+}
+
+.abu .name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #151D48;
+    margin-bottom: 10px;    
+    margin-top: 5px;
+}
+
+.abu .job {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.dd {
+    margin-top: 5px;
+}
+
+p {
+    width: 1220px;
+    margin-left: 400px;
+    padding-top: 100px;
+}
