@@ -23,7 +23,8 @@ main {
 .header {
     width: 345px;
     margin-left: 30px;
-    background-color: aqua;  
+    /* background-color: aqua;   */
+    scroll-snap-align: 100px;
 }
 
 .header__container .header-logo {
@@ -137,7 +138,8 @@ main {
 .dash {
     width: 1575px;
     height: 70px;
-    background-color: aqua;
+    /* background-color: aqua; */
+    scroll-behavior: auto;
 
 }
 
